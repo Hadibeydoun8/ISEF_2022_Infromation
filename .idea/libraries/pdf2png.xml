@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pdf2png">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/assets/2022/2_place/pdf/pdf2png.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
