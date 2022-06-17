@@ -27,6 +27,35 @@
             margin: auto;
         }
 
+
+        /* Next & previous buttons */
+        .prev-1, .next-1 {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next-1 {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a grey background color */
+        .prev-1:hover, .next-1:hover {
+            background-color: #f1f1f1;
+            color: black;
+        }
+
         /* Next & previous buttons */
         .prev, .next {
             cursor: pointer;
@@ -57,10 +86,11 @@
     </style>
 
 </head>
-<body>
+<body style='margin-top:25px;margin-left:0;margin-right:0;margin-bottom: 25px;'>
 
 <div class="container">
-    <h2> Regeneron International Science and Engineering Fair 2022</h2>
+    <h2 style="text-align: center"> Regeneron International Science and Engineering Fair 2022</h2>
+    <br>
     <div id="accordion">
         <div class="card show">
             <div class="card-header">
@@ -210,8 +240,8 @@
                                                 <img src="assets/2022/2_place/slide_show/slide_10.png" style="width:100%">
                                             </div>
 
-                                            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-                                            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                                            <a class="prev-1" onclick="plusSlides(-1, 1)">&#10094;</a>
+                                            <a class="next-1" onclick="plusSlides(1, 1)">&#10095;</a>
                                         </div>
                                     </div>
                                 </div>
@@ -302,8 +332,8 @@
                                                 <img src="assets/2022/3_place/slide_show/slide_12.png" style="width:100%">
                                             </div>
 
-                                            <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-                                            <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+                                            <a class="prev-1" onclick="plusSlides(-1, 2)">&#10094;</a>
+                                            <a class="next-1" onclick="plusSlides(1, 2)">&#10095;</a>
                                         </div>
 
                                     </div>
